@@ -1,0 +1,4 @@
+gt.local.ps1
+*.local.ps1
+.env
+.env.local
