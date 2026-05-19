@@ -16,7 +16,7 @@ $script:GT_GLM_OPUS_MODEL   = 'glm-5.1'
 # Kimi (Moonshot)
 if (-not $env:GT_KIMI_AUTH_TOKEN) { $script:GT_KIMI_AUTH_TOKEN = 'YOUR_KIMI_API_KEY' } else { $script:GT_KIMI_AUTH_TOKEN = $env:GT_KIMI_AUTH_TOKEN }
 $script:GT_KIMI_BASE_URL = 'https://api.kimi.com/coding/'
-$script:GT_KIMI_MODEL    = 'kimi-k2.6-code-preview'
+$script:GT_KIMI_MODEL    = 'kimi-k2.6'
 
 # MiniMax
 if (-not $env:GT_MINIMAX_AUTH_TOKEN) { $script:GT_MINIMAX_AUTH_TOKEN = 'YOUR_MINIMAX_API_KEY' } else { $script:GT_MINIMAX_AUTH_TOKEN = $env:GT_MINIMAX_AUTH_TOKEN }
